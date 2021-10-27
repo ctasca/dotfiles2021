@@ -1,0 +1,66 @@
+# Git
+alias g="git"
+alias gs="git status"
+alias gc="git commit"
+alias ga="git add"
+alias gai="git add -i"
+alias gap="git add -p"
+alias gf="git fetch"
+alias gfa="git fetch --all"
+alias gp="git pull"
+alias gpo="git pull origin"
+alias gpu="git push"
+alias gpuo="git push origin"
+alias gnb="git checkout -b"
+alias gsb="git checkout"
+alias gmnff="git merge --no-ff"
+alias gd="git diff"
+alias gst="git stash"
+alias gstp="git stash pop" 
+
+alias ±="git"
+alias ±s="git status"
+alias ±c="git commit"
+alias ±a="git add"
+alias ±ai="git add -i"
+alias ±ap="git add -p"
+alias ±f="git fetch"
+alias ±fa="git fetch --all"
+alias ±p="git pull"
+alias ±po="git pull origin"
+alias ±pu="git push"
+alias ±puo="git push origin"
+alias ±nb="git checkout -b"
+alias ±sb="git checkout"
+alias ±mnff="git merge --no-ff"
+alias ±d="git diff"
+alias ±st="git stash"
+alias ±stp="git stash pop"
+
+# Homebrew php
+alias bphp="/opt/homebrew/bin/php"
+alias §="/opt/homebrew/bin/php"
+
+# Artisan commands
+alias bphpas="bphp artisan serve"
+
+# Composer homebrew
+alias bcomposer="/opt/homebrew/bin/composer"
+alias bphpcomposerupdate="bphp -d memory_limit=-1 /opt/homebrew/bin/composer update"
+
+# Vendor Behat
+alias behat="vendor/behat/behat/bin/behat"
+alias bphpbehat="bphp vendor/behat/behat/bin/behat"
+
+# Alias for starting selenium with chrome driver
+alias startselenium="java -jar selenium-server-standalone-2.43.1.jar -Dwebdriver.chrome.driver=\"/usr/local/bin/chromedriver\"" 
+
+# Alias for PHPSpec path to executable
+alias phpspec="vendor/phpspec/phpspec/bin/phpspec"
+
+# Alias for home directory
+alias home="cd $HOME"
+
+# Alias for Laravel PHPunit
+alias phpunit="vendor/bin/phpunit"
+
